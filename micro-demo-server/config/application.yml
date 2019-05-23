@@ -1,4 +1,6 @@
 spring:
+  application:
+    name: micro-demo
   profiles:
     active: dev
   jpa:
@@ -14,6 +16,10 @@ spring:
         batch_size: 50
   aop:
     proxy-target-class: true
+dubbo:
+  protocol:
+    port: 8000
+    restport: 10000
 logging:
   file: /logs
   config:

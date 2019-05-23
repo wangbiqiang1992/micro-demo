@@ -27,3 +27,9 @@ hs_err_pid*
 /micro-demo.iml
 /.idea/
 /target/
+/micro-demo-api/micro-demo-api.iml
+/micro-demo-impl/micro-demo-impl.iml
+/micro-demo-server/micro-demo-server.iml
+/micro-demo-server-test/micro-demo-server-test.iml
+/micro-demo-impl/target/
+/micro-demo-server/target/

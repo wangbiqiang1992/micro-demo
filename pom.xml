@@ -33,7 +33,20 @@
     <packaging>pom</packaging>
     <name>微服务模板</name>
 
-
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.wang.starter</groupId>
+                <artifactId>wang-boot-dubbo-starter</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.wang.starter</groupId>
+                <artifactId>wang-boot-dubborest-starter</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <build>
         <resources>

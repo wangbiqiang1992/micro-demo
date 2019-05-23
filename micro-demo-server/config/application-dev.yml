@@ -1,3 +1,5 @@
+zookeeper:
+  address: zookeeper://127.0.0.1:2181
 spring:
   redis:
     host: 127.0.0.1
